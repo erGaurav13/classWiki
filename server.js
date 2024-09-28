@@ -1,8 +1,8 @@
 const http = require('http');
 const app = require('./app');
+const morgan =require('morgan') 
  
- 
-
+app.use(morgan("dev"))
 
  
 // use environment variables
